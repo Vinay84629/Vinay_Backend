@@ -12,6 +12,8 @@ public class StringMethod {
 
         byte b[] = {65,66,67,68,69};
         String str4 = new String(b,1,2);
+        System.out.println(str4);
+        //System.out.println(str4);
 
         //65is 0 , 66 is 1 , 67 is 2 , 68 is 3 and 69 is 4 th offset
         // b,1,2 with gives the output from 1st offset to 2nd length
